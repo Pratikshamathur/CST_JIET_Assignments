@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    vector<int>ar={1,2,4,2,4,1,5};
+    int i,p=0;
+    
+    for(i=0;i<ar.size();i++)
+    {    
+    
+    	p=p^ar[i];
+    	
+	}
+	cout<<"THE ANSWER IS"<<p;
+return 0;
+}
